@@ -1,0 +1,69 @@
+body{
+    margin: 0px;
+}
+p{
+    font-size: 30px;
+    font-family: 'Fanwood Text',sans-serif ;
+    color: rgb(107, 96, 96);
+}
+.section{
+    height: 500px;
+    padding-bottom: 50px;
+    
+}
+.sec-1{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+   
+}
+h1{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 40px;
+    color: rgb(22, 20, 20);
+}
+.highlight{
+    color:  #EC4C7A;
+    font-size: 90px;
+}
+.bio{
+    
+    width: 36%;
+    margin: 5%;
+    padding: 2%;
+    float: left;
+}
+.bio img{
+    width: 100%;
+}
+
+.hire{
+    border-radius: 5px;
+    background-image: linear-gradient(#EC4F90 , #EC4B75);
+    padding: 20px 40px;
+    color: white;
+    text-decoration: none;
+}
+.sec-2{
+
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+}
+.sec-3{
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+}
+h2{
+    text-align: center;
+}
+
+
+.work img{
+    width: 25%;
+    float: left;
+    margin: 2%;
+    
+}
+tr img{
+    width: 100%;
+    height: 50px;
+}
