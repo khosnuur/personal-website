@@ -19,10 +19,15 @@ section{
     background-image: url("images/biography-bg.png");
     background-repeat: no-repeat;
 }
-.laset-work{
+.latest-work{
     background-image: url("images/latest-work-bg.png");
     background-repeat: no-repeat;
 }
+.footer{
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+}
+
 
 
 .intro{
@@ -53,15 +58,30 @@ font-size: 40px;
 }
 
 .works{
-    box-sizing: inherit;
-    width: 50%
+    width: 100%;
+    display: flex;
+    justify-content: center;
    
 }
 
-.images{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: inherit;
-    float: left;
-    width: 20%;
+.works .images img{
+   width: 100%;
+   padding: 0px 20px;
+}
+.bruce-moccy{
+    text-align: center;
+}
+.ceo {
+    font-size: 11px;
+    color:grey;
+}
+.message{
+    text-decoration: none;
+    background-image: linear-gradient(65deg,#EC4C7A,rgb(219, 89, 180));
+    color: white;
+    padding:20px 40px;
+    border-width: 50px;
+    font-size: 30px;
+    border-radius: 5px;
+    
 }
