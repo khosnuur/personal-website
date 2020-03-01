@@ -75,16 +75,10 @@ font-size: 40px;
     font-size: 11px;
     color:grey;
 }
-.email-box p, .email-box a{
-    width: 40%;
-    margin: auto;
-    text-align: center;
-    text-decoration: none;
-    background-image: linear-gradient(65deg,#EC4C7A,rgb(219, 89, 180));
+
+.message{
     color: white;
-    padding:20px 40px;
-    border-width: 50px;
     font-size: 30px;
-    border-radius: 5px;
-    
+    padding:35px;
+    text-decoration: none;
 }
